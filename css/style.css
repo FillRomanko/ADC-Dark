@@ -276,6 +276,10 @@ footer{
     font-size: 24px;
 }
 
+.last{
+    padding: 11.5px 24px;
+}
+
 @media (max-width: 1488px) {
     header {
         width: 100%;
@@ -287,6 +291,9 @@ footer{
     }
     .desktop-font {
         font-size: calc(24px + (36 * ((100vw - 1024px) / 416)));
+    }
+    footer{
+        width: 100%;
     }
 }
 @media (max-width: 1024px) {
@@ -322,13 +329,7 @@ footer{
     }
     .color {
         background: #F4F4F5;
-        color: #131313;
-    }
-        header .color a {
-        color: #131313;
-    }
-        .button:last-child {
-        padding: 9px 12px;
+        color: #131313 !important;
     }
     .all {
         flex-direction: column;
@@ -339,7 +340,8 @@ footer{
     footer {
         display: flex;
         gap: 96px;
-        width: 100%;
+    }
+    .last{
+        padding: 9px 12px;
     }
 }
-
