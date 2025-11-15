@@ -324,6 +324,12 @@ footer{
         background: #F4F4F5;
         color: #131313;
     }
+        header .color a {
+        color: #131313;
+    }
+        .button:last-child {
+        padding: 9px 12px;
+    }
     .all {
         flex-direction: column;
         gap: 96px;
@@ -336,3 +342,4 @@ footer{
         width: 100%;
     }
 }
+
