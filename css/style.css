@@ -226,6 +226,9 @@ main {
 .offer-description ul {
     padding-left: 24px;
     list-style-position: outside;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .offer-description li {
@@ -233,15 +236,11 @@ main {
     font-size: 18px;
     font-weight: 400;
     list-style-type: disc;
-    letter-spacing: -0.00em;
+    letter-spacing: 0.00em;
 }
 
 .offer-description li::marker {
     color: #fff;
-}
-
-.offer-description li:not(:last-child) {
-    margin-bottom: 16px;
 }
 
 
